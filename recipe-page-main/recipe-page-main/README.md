@@ -10,7 +10,9 @@ This project showcases a beautifully designed **recipe card UI** for a simple om
 
 ## 🛠️ Technologies Used  
 - **HTML** - For structuring the recipe card  
-- **TailwindCSS** - For styling and enhancing the design  
+- **TailwindCSS** - For styling and enhancing the design
+
+## Live Demo : https://receipecard.vercel.app/  
 
 ## 📸 Preview  
 
