@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Social Link Card</title>
+  </head>
+  <body>
+    <!-- first create div inside which card component will be there -->
+    <div class="bg-[#141414] flex items-center justify-center min-h-screen">
+      <!-- the main card component -->
+      <div
+        class="bg-[#1f1f1f] rounded-lg shadow-lg overflow-hidden p-8 max-w-xs rounded-lg"
+      >
+        <!-- div for image -->
+        <div class="flex items-center justify-center mb-4">
+          <img
+            src="./assets/images/avatar-jessica.jpeg"
+            alt="avatar"
+            class="h-16 w-16 object-cover object-center rounded-full"
+          />
+        </div>
+        <div class="flex flex-col items-center justify-center text-center">
+          <h1 class="text-white font-semibold mb-1 text-xl">Jessica Randall</h1>
+          <h4 class="text-[#c5f82a] font-semibold text-xs">
+            London,United Kingdom
+          </h4>
+          <p class="text-white text-sm mt-4">
+            "Front-end Developer and avid Reader"
+          </p>
+
+          <button
+            class="mt-7 text-white font-semibold rounded-lg w-full p-2 bg-[#333333] hover:bg-[#c5f82a]"
+          >
+            GitHub
+          </button>
+          <button
+            class="mt-7 text-white font-semibold rounded-lg w-full p-2 bg-[#333333] hover:bg-[#c5f82a] transition-all duration-300"
+          >
+            Fontend Mentor
+          </button>
+          <button
+            class="mt-7 text-white font-semibold rounded-lg w-full p-2 bg-[#333333] hover:bg-[#c5f82a] transition-all duration-300"
+          >
+            Linkdin
+          </button>
+          <button
+            class="mt-7 text-white font-semibold rounded-lg w-full p-2 bg-[#333333] hover:bg-[#c5f82a] transition-all duration-300"
+          >
+            Twitter
+          </button>
+          <button
+            class="mt-7 text-white font-semibold rounded-lg w-full p-2 bg-[#333333] hover:bg-[#c5f82a] transition-all duration-300"
+          >
+            Instagram
+          </button>
+          <p class="text-[#c5f82a] mt-4">Coded By Nupoor Kedare</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
